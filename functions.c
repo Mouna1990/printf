@@ -47,7 +47,7 @@ length++;
 if (precision >= 0 && precision < length)
 length = precision;
 
-return (handle_write_string(str, buffer, flags, width, length, size));
+return (handle_write_char(str, buffer, flags, width, length, size));
 }
 
 /************************* PRINT PERCENT SIGN *************************/
